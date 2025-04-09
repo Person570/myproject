@@ -1,0 +1,6 @@
+{
+  "api_url": "https://api.dex.com/products",
+  "bot_token": "7975758242:AAGhpGRHFcc-pLXvYI7HWjhTPyZ3lffArLo",
+  "chat_id": "985280051",
+  "log_file": "logs/app.log"
+}
