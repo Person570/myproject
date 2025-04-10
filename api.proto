@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package api;
+
+service DexService {
+    rpc CreateClient(CreateClientReq) returns (CreateClientResp);
+}
+
+message Client {
+    string id = 1;
+    string name = 2;
+    string secret = 3;
+    repeated string redirect_uris = 4;
+}
+
+message CreateClientReq {
+    Client client = 1;
+}
+
+message CreateClientResp {
+    string message = 1;
+}
